@@ -10,10 +10,15 @@ const ThemeToggler = () => {
         onClick={() => {
           setThemeMode(themeMode === "light" ? "dark" : "light");
         }}
+        style={{
+          height: "120px",
+          width: "100px",
+          margin: "5px",
+          padding: "15px",
+        }}
       >
-        Change Theme
+        Change Theme To {themeMode === "light" ? "Dark Mode" : "Light Mode"}
       </button>
-      <span>{themeMode === "light" ? "Turn Off" : "Lights On"}</span>
     </div>
   );
 };
