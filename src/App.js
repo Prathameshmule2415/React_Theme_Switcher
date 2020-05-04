@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ThemeContext from "./context/theme.context";
+import ThemeContext from "./theme.context";
 import Header from "./component/Header.component";
 import HeroSection from "./component/Main.component";
 import "./App.css";
